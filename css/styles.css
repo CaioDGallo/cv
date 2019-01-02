@@ -1,0 +1,161 @@
+/**** TAG SELECTOR ****/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  margin: 30px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:  #11999E;
+  margin: 20px;
+}
+
+a {
+  color:  #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+p {
+  color: #40514E;
+  line-height: 2;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #7f7f7f;
+  border-width: 5px;
+  width: 5%;
+  margin: 85px auto 85px auto;
+}
+
+/**** CLASS SELECTOR ****/
+.top-container {
+  background-color: #EAF6F6;
+  padding: 100px 100px 0 100px;
+  position: relative;
+}
+
+.middle-container {
+  padding: 50px;
+  color: #EAF6F6;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 20px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom:400px;
+}
+
+.footer-link{
+  margin: 20px;
+  display: inline-block;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75em;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.skill-img-1{
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img-2{
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row{
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.btn {
+  background: #28d0d6;
+  background-image: -webkit-linear-gradient(top, #28d0d6, #11999E);
+  background-image: -moz-linear-gradient(top, #28d0d6, #11999E);
+  background-image: -ms-linear-gradient(top, #28d0d6, #11999E);
+  background-image: -o-linear-gradient(top, #28d0d6, #11999E);
+  background-image: linear-gradient(to bottom, #28d0d6, #11999E);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: 'Quicksand', sans-serif;
+  color: #ffffff;
+  font-size: 19px;
+  margin: 30px auto 40px auto;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.contact-me {
+  display: inline-block;
+  width: 40%;
+}
+
+.want-to-hire {
+  margin: 15px auto 25px auto;
+  display: inline-block;
+}
